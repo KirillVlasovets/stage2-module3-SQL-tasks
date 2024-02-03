@@ -6,5 +6,4 @@ select * from paymenttype order by name;
 
 select * from student order by name desc;
 
-select distinct * from student s
-    join payment p on s.id = p.student_id where p.amount > 1000 order by s.birthday;
+select distinct * from student s join payment p on s.id = p.student_id where p.amount > 1000 order by s.birthday;
