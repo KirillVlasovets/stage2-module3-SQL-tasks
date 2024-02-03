@@ -1,4 +1,4 @@
-select min(birthday) from student;
+select max(birthday) from student;
 
 select min(payment_date) from payment;
 
